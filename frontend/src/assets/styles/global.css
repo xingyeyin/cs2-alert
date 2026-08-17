@@ -1,0 +1,68 @@
+/* ========== 全局样式 ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+  font-size: 14px;
+  color: #303133;
+  background-color: #f0f2f5;
+}
+
+/* 布局容器铺满全屏 */
+.app-layout {
+  height: 100%;
+}
+
+/* 左侧导航栏 */
+.sidebar {
+  background-color: #1f2d3d;
+}
+
+.sidebar-logo {
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #263445;
+}
+
+.sidebar-menu {
+  border-right: none;
+}
+
+/* 顶部导航栏 */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+
+.header-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header-right {
+  color: #909399;
+  font-size: 13px;
+}
+
+/* 主内容区 */
+.app-main-container {
+  height: 100%;
+}
+
+.app-content {
+  padding: 16px;
+}
